@@ -3,7 +3,10 @@
   height: 427;
   display: inline-block;
   margin: auto;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-radius: 5px;
+  overflow: none;
 }
 
 #main {
@@ -23,8 +26,10 @@
   margin: auto;
   border: 1px solid black;
 }
+
+
 .tile:hover {
-  background-color:lightgray;
+  background-color: lightgrey;
   cursor:pointer;
 }
 
@@ -34,7 +39,13 @@ h1 {
 }
 
 .tile {
-  /*position: absolute;*/
-  border-right:1px solid black;
-  border-bottom:1px solid black;
+  border-right:1px solid gray;
+  border-bottom:1px solid gray;
+  background-color: #f4f4f4;
+
+}
+
+.option {
+  border-bottom:1px solid gray;
+
 }
