@@ -1,7 +1,10 @@
-#main {
-  /*display:inline;*/
-  position: absolute;
+#spaces {
+  width: 610;
+  height: 427;
+
   margin: auto;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
 }
 
 h1 {
@@ -10,5 +13,7 @@ h1 {
 }
 
 .tile {
-  position: absolute;
+  /*position: absolute;*/
+  border-right:1px solid black;
+  border-bottom:1px solid black;
 }
