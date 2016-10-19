@@ -1,10 +1,31 @@
 #spaces {
   width: 610;
   height: 427;
-
+  display: inline-block;
   margin: auto;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
+  border: 1px solid black;
+}
+
+#main {
+  display: inline-block;
+  margin: auto;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+
+#side-tiles{
+  display: inline-block;
+  width: 60;
+  height: 305;
+  margin: auto;
+  border: 1px solid black;
+}
+.tile:hover {
+  background-color:lightgray;
+  cursor:pointer;
 }
 
 h1 {
