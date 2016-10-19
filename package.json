@@ -1,0 +1,26 @@
+{
+  "name": "sewer",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnico810/sewernightmare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnico810/sewernightmare/issues"
+  },
+  "homepage": "https://github.com/jnico810/sewernightmare#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,14 @@
+#main {
+  /*display:inline;*/
+  position: absolute;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+.tile {
+  position: absolute;
+}
