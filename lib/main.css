@@ -7,15 +7,18 @@
   border-top: 1px solid black;
   border-radius: 5px;
   overflow: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
 }
 
 #main {
-  display: inline-block;
-  margin: auto;
+  position: absolute;
 }
 
 #wrapper {
   text-align: center;
+  height: 427;
 }
 
 
@@ -25,6 +28,10 @@
   height: 305;
   margin: auto;
   border: 1px solid black;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  left: 0;
 }
 
 
@@ -47,5 +54,6 @@ h1 {
 
 .option {
   border-bottom:1px solid gray;
-
+  position: absolute;
+  left: 0;
 }
