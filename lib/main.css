@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid lightgray;
   width: 740px;
   margin: auto;
   background-color: #e2f4ff;
@@ -41,6 +41,7 @@ h1 {
   margin: auto;
   text-align: center;
   font-family: helvetica;
+  color:#14a9ff;
   padding:0 0 20px 0;
 }
 
