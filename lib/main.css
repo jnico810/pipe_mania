@@ -70,14 +70,12 @@ h1 {
 }
 
 .start {
-  border-right:1px solid lightgray;
-  border-bottom:1px solid lightgray;
   background-color: #f4f4f4;
   position: relative;
   width: 60px;
   height: 60px;
   z-index: 1;
-  box-sizing: border-box;
+  box-sizing: content-box;
   /*background-color: black;*/
 }
 
@@ -86,12 +84,4 @@ h1 {
   background-color: #f4f4f4;
   position: absolute;
   left: 0;
-}
-
-#sludge {
-  top:0;
-  position: absolute;
-  left:0;
-  z-index: 2;
-  pointer-events: none;
 }
