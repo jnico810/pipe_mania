@@ -46,19 +46,38 @@ h1 {
 }
 
 .tile {
+  background-color: #f4f4f4;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  box-sizing: content-box;
+  z-index: 1;
+
+  /*border-right:1px solid transparent;
+  border-bottom:1px solid lightgray;*/
+}
+
+.empty {
   border-right:1px solid lightgray;
   border-bottom:1px solid lightgray;
   background-color: #f4f4f4;
   position: relative;
+  width: 60px;
+  height: 60px;
   z-index: 1;
+  box-sizing: border-box;
+
 }
 
 .start {
   border-right:1px solid lightgray;
-  border-bottom:1px solid white;
+  border-bottom:1px solid lightgray;
   background-color: #f4f4f4;
   position: relative;
+  width: 60px;
+  height: 60px;
   z-index: 1;
+  box-sizing: border-box;
   /*background-color: black;*/
 }
 
