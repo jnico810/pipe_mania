@@ -10,12 +10,12 @@
 }
 
 #spaces {
-  width: 610;
+  width: 601px;
   height: 427;
   display: inline-block;
   margin: auto;
-  border-left: 1px solid lightgray;
-  border-top: 1px solid lightgray;
+  /*border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;*/
   border-radius: 5px;
   overflow: hidden;
   position: relative;
@@ -23,25 +23,30 @@
 
 #side-tiles{
   display: inline-block;
-  width: 60;
+  width: 62;
   height: 305;
-  margin-right:20px;
-  border: 1px solid lightgray;
+  margin-right:10px;
+  /*border: 1px solid lightgray;*/
   position: relative;
+  top: -121px;
   overflow: hidden;
 }
 
 
-.tile:hover {
+.empty:hover {
   background-color: lightgrey;
-  cursor:pointer;
+  /*cursor:pointer;*/
+}
+body{
+  background-color: black;
 }
 
 h1 {
   margin: auto;
+  font-family: 'Nosifer', cursive;;
   text-align: center;
-  font-family: helvetica;
-  color:#14a9ff;
+  /*font-family: helvetica;*/
+  color:#black;
   padding:0 0 20px 0;
 }
 
@@ -52,14 +57,12 @@ h1 {
   height: 60px;
   box-sizing: content-box;
   z-index: 1;
-
-  /*border-right:1px solid transparent;
-  border-bottom:1px solid lightgray;*/
+  border-radius: 5px;
 }
 
 .empty {
-  border-right:1px solid lightgray;
-  border-bottom:1px solid lightgray;
+  border:1px solid lightgray;
+  border-radius: 5px;
   background-color: #f4f4f4;
   position: relative;
   width: 60px;
@@ -80,8 +83,34 @@ h1 {
 }
 
 .option {
-  border-bottom:1px solid lightgray;
+  border:1px solid lightgray;
+  border-radius: 5px;
   background-color: #f4f4f4;
+  position: absolute;
+  left: 0;
+}
+
+#play {
+  border: 1px solid lightgray;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  color:#6e9cb7;
+  font-size: 25px;
+}
+
+#play:hover {
+  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
+  progress !important;
+}
+
+
+#main:hover {
+  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
+  progress !important;
+}
+
+#sludge {
   position: absolute;
   left: 0;
 }
