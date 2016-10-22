@@ -97,6 +97,9 @@ h1 {
   border-radius: 10px;
   color:#6e9cb7;
   font-size: 25px;
+  top: 70px;
+  left: 111px;
+  position: absolute;
 }
 
 #play:hover {
@@ -115,4 +118,21 @@ h1 {
   overflow: auto;
   left: 0;
   top:0;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu {
+  position: absolute;
+  top: 173px;
+  left: 239px;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  background: black;
+  border: 2px solid lightgray;
+  z-index: 10;
 }
