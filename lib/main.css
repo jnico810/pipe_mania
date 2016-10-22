@@ -1,21 +1,72 @@
+body, h1, div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 #main {
-  position: relative;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid lightgray;
   width: 740px;
-  margin: auto;
-  background-color: #e2f4ff;
+  height: 520px;
+  background-color: #black;
   border-radius: 20px;
+
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
+
+#menu {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 130px;
+  border-radius: 20px;
+  background: black;
+  border: 2px solid lightgray;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  z-index: 3;
+}
+
+#menu p {
+  color: red;
+  font-family: 'Nosifer', cursive;;
+  font-size: 12px;
+  cursor: default;
+  progress !important;
+}
+
+#play {
+  border: 1px solid lightgray;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  color:#6e9cb7;
+  font-size: 25px;
+}
+
+#play:hover {
+  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
+  progress !important;
+}
+
 
 #spaces {
   width: 601px;
   height: 427;
   display: inline-block;
   margin: auto;
-  /*border-left: 1px solid lightgray;
-  border-top: 1px solid lightgray;*/
   border-radius: 5px;
   overflow: hidden;
   position: relative;
@@ -26,16 +77,26 @@
   width: 62;
   height: 305;
   margin-right:10px;
-  /*border: 1px solid lightgray;*/
   position: relative;
   top: -121px;
   overflow: hidden;
 }
 
+#main:hover {
+  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
+  progress !important;
+}
+
+#sludge {
+  position: absolute;
+  overflow: auto;
+  left: 0;
+  top:0;
+  z-index: 2;
+}
 
 .empty:hover {
   background-color: lightgrey;
-  /*cursor:pointer;*/
 }
 body{
   background-color: black;
@@ -45,8 +106,7 @@ h1 {
   margin: auto;
   font-family: 'Nosifer', cursive;;
   text-align: center;
-  /*font-family: helvetica;*/
-  color:#black;
+  color:red;
   padding:0 0 20px 0;
 }
 
@@ -79,7 +139,6 @@ h1 {
   height: 60px;
   z-index: 1;
   box-sizing: content-box;
-  /*background-color: black;*/
 }
 
 .option {
@@ -90,49 +149,25 @@ h1 {
   left: 0;
 }
 
-#play {
-  border: 1px solid lightgray;
-  background: white;
-  padding: 10px;
-  border-radius: 10px;
-  color:#6e9cb7;
-  font-size: 25px;
-  top: 70px;
-  left: 111px;
-  position: absolute;
-}
-
-#play:hover {
-  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
-  progress !important;
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 
-#main:hover {
-  cursor: url(http://cur.cursors-4u.net/others/oth-5/oth436.cur),
-  progress !important;
-}
-
-#sludge {
-  position: absolute;
-  overflow: auto;
-  left: 0;
-  top:0;
-  z-index: 10;
-}
 
 .hidden {
   display: none;
 }
 
-#menu {
-  position: absolute;
-  top: 173px;
-  left: 239px;
-  width: 300px;
-  height: 200px;
-  border-radius: 20px;
-  background: black;
-  border: 2px solid lightgray;
-  z-index: 10;
+
+.opacity-low {
+  opacity: 0.2;
+}
+
+.opacity-medium {
+  opacity: 0.2;
 }

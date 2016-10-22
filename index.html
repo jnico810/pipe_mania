@@ -6,19 +6,14 @@
     <title>Sewer Nightmare</title>
   </head>
   <body>
-    <canvas id="sludge" width="120" height="120"></canvas>
-
-      <div id="main">
-        <h1>SEWER NIGHTMARE</h1>
-        <div id="side-tiles"></div>
-        <div id="spaces">
-        </div>
-        <div id="menu">
-        <button id="play">Play</button>
-        </div>
-      </div>
-
-
+    <canvas id="sludge" width="120" height="120" class= "unselectable"></canvas>
+    <div id="main" class="opacity-low unselectable">
+      <h1 class='unselectable'>SEWER NIGHTMARE</h1><div id="side-tiles"></div><div id="spaces"></div>
+    </div>
+    <div id="menu">
+      <p class='unselectable' id='message'>Your nightmare awaits!</p>
+      <button id="play">Play</button>
+    </div>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>
