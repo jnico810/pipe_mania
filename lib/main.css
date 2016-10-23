@@ -137,7 +137,28 @@ h1 {
 
 }
 
+.barrier {
+  /*border:1px solid lightgray;*/
+  border-radius: 5px;
+  background-color: black;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  box-sizing: content-box;
+}
+
 .start {
+  background-color: #f4f4f4;
+  position: relative;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  box-sizing: content-box;
+}
+
+.end {
   background-color: #f4f4f4;
   position: relative;
   border-radius: 5px;
