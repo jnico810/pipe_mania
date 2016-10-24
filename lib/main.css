@@ -1,4 +1,4 @@
-body, h1, div {
+body, h1, div, p {
   margin: 0;
   border: 0;
   padding: 0;
@@ -10,11 +10,11 @@ body, h1, div {
   border: 2px solid lightgray;
   width: 740px;
   height: 560px;
-  background-color: #black;
+  background-color: white;
   border-radius: 20px;
 
   position: absolute;
-  top: -30px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -24,11 +24,11 @@ body, h1, div {
 #menu {
   text-align: center;
   margin: auto;
-  width: 300px;
-  height: 130px;
+  width: 400px;
+  height: 100px;
   border-radius: 20px;
-  background: black;
-  border: 2px solid lightgray;
+  background: white;
+  border: 2px solid #6e9cb7;
   position: absolute;
   top: -30px;
   left: 0;
@@ -39,12 +39,36 @@ body, h1, div {
   z-index: 3;
 }
 
+
 #menu p {
-  color: red;
-  font-family: 'Nosifer', cursive;;
-  font-size: 12px;
+  color: #6e9cb7;
+  font-family: 'copper';
+  font-size: 20px;
   cursor: default;
+  margin: 10px 0;
   progress !important;
+}
+
+#counter {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+#counter-text {
+  color: #304550;
+  font-family: 'copper';
+  font-size: 50px;
+  cursor: default;
 }
 
 #play {
@@ -96,22 +120,34 @@ body, h1, div {
 }
 
 #score {
-  color: white;
-  font-size: 20px;
+  color: #6e9cb7;
+  margin: 10px 0px;
+  font-family: 'copper';
+  font-size: 35px;
 }
 
 .empty:hover {
   background-color: lightgrey;
 }
 body{
+  background-color: lightgray;
+}
+
+.black-bg{
   background-color: black;
+}
+
+@font-face {
+    font-family: 'copper';
+    src: url(copper.ttf);
 }
 
 h1 {
   margin: auto;
-  font-family: 'Nosifer', cursive;;
+  font-size:50px;
+  font-family: 'copper';
   text-align: center;
-  color:red;
+  color: #6e9cb7;
   padding:0 0 20px 0;
 }
 
@@ -140,7 +176,7 @@ h1 {
 .barrier {
   /*border:1px solid lightgray;*/
   border-radius: 5px;
-  background-color: black;
+  background-color: #6e9cb7;
   position: relative;
   width: 60px;
   height: 60px;
