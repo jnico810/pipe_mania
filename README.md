@@ -1,10 +1,10 @@
-## Sample JS Project Proposal: Pipe Mania a PipeDream Clone
+## Pipe Mania: A PipeDream Clone
 
 [LIVE SITE](https://jnico810.github.io/pipe_mania/)
 
 ### Background
 
-Using a variety of pipe pieces presented randomly in a queue, the player must construct a path from the start piece for the onrushing sewer slime, or "flooz" (the 1991 Windows version's help files refer to it as "goo"), which begins flowing after a time delay from the start of the round. Pieces may not be rotated; they must be placed as presented in the queue. The player can replace a previously laid piece by clicking on it, as long as the flooz has not yet reached it; however, doing so causes a short time delay before the next piece can be laid. The flooz is required to pass through a given number of pipe pieces in order for the player to continue to the next round. Some rounds also include an end piece, which must be the end of the pipeline the player has constructed, in addition to fulfilling the minimum pipe length requirement.
+Using a variety of pipe pieces presented randomly in a queue, the player must construct a path from the start piece for the onrushing sewer slime, or "flooz" (the 1991 Windows version's help files refer to it as "goo"), which begins flowing after a time delay from the start of the round. Pieces may not be rotated; they must be placed as presented in the queue.
 
 
 ### Functionality & MVP  
