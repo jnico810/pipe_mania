@@ -1,4 +1,4 @@
-## Sample JS Project Proposal: Sewer Nightmare a PipeDream Clone
+## Sample JS Project Proposal: Pipe Mania a PipeDream Clone
 
 [LIVE SITE](https://jnico810.github.io/pipe_mania/)
 
