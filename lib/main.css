@@ -39,6 +39,13 @@ body, h1, div, p {
   z-index: 3;
 }
 
+#fast {
+  position: absolute;
+  left: 60px;
+  width: 30px;
+  height: 30px;
+  bottom: 80px;
+}
 
 #menu p {
   color: #6e9cb7;
