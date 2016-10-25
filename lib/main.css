@@ -114,7 +114,7 @@ body, h1, div, p {
   font-size: 30px;
   color: #6e9cb7;
   right: 50px;
-  bottom:20px;
+  bottom:19px;
 }
 
 #side-tiles{
@@ -141,6 +141,16 @@ body, h1, div, p {
 }
 
 #score {
+  color: #6e9cb7;
+  margin: 10px 0px;
+  font-family: 'copper';
+  font-size: 35px;
+}
+
+#high-score {
+  position: absolute;
+  bottom: 4px;
+  left:45px;
   color: #6e9cb7;
   margin: 10px 0px;
   font-family: 'copper';
