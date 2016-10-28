@@ -43,8 +43,8 @@ body, h1, div, p {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
 
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
 
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
@@ -54,23 +54,37 @@ body, h1, div, p {
 
 @keyframes slideDown {
   0% {
-    -webkit-transform: translateY(-300%);
+    -webkit-transform: scale(0);
   }
-  50%{
+  /*50%{
     -webkit-transform: translateY(8%);
+  }*/
+  70%{
+    -webkit-transform: scale(1);
+  }
+  85%{
+    -webkit-transform: scale(1.02);
   }
   100%{
-    -webkit-transform: translateY(0%);
+    -webkit-transform: scale(1);
   }
 }
 
 @-webkit-keyframes slideDown {
-
-  50%{
+  0% {
+    -webkit-transform: scale(0);
+  }
+  /*50%{
     -webkit-transform: translateY(8%);
+  }*/
+  70%{
+    -webkit-transform: scale(1);
+  }
+  85%{
+    -webkit-transform: scale(1.02);
   }
   100%{
-    -webkit-transform: translateY(0%);
+    -webkit-transform: scale(1);
   }
 }
 
