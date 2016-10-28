@@ -28,7 +28,7 @@ body, h1, div, p {
   height: 100px;
   border-radius: 20px;
   background: white;
-  border: 2px solid #6e9cb7;
+  border: 2px solid #304550;
   position: absolute;
   top: -30px;
   left: 0;
@@ -87,7 +87,7 @@ body, h1, div, p {
 }
 
 #menu p {
-  color: #6e9cb7;
+  color: #304550;
   font-family: 'copper';
   font-size: 20px;
   cursor: default;
@@ -103,7 +103,7 @@ body, h1, div, p {
   height: 100px;
   border-radius: 20px;
   position: absolute;
-  top: 0;
+  top: -25%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -124,7 +124,7 @@ body, h1, div, p {
   background: white;
   padding: 5px;
   border-radius: 10px;
-  color:#6e9cb7;
+  color:#304550;
   font-size: 25px;
 }
 
@@ -148,9 +148,9 @@ body, h1, div, p {
   position: absolute;
   font-family: 'copper';
   font-size: 30px;
-  color: #6e9cb7;
+  color: #304550;
   right: 50px;
-  bottom:19px;
+  bottom:14px;
 }
 
 #side-tiles{
@@ -177,8 +177,9 @@ body, h1, div, p {
 }
 
 #score {
-  color: #6e9cb7;
+  color: #304550;
   font-family: 'copper';
+  padding-top: 3px;
   font-size: 35px;
 }
 
@@ -186,7 +187,7 @@ body, h1, div, p {
   position: absolute;
   bottom: 4px;
   left:45px;
-  color: #6e9cb7;
+  color: #304550;
   margin: 10px 0px;
   font-family: 'copper';
   font-size: 35px;
@@ -196,7 +197,7 @@ body, h1, div, p {
   background-color: lightgrey;
 }
 body{
-  background-color: lightgray;
+  background-color: #6e9cb7;
 }
 
 .black-bg{
@@ -213,7 +214,7 @@ h1 {
   font-size:50px;
   font-family: 'copper';
   text-align: center;
-  color: #6e9cb7;
+  color: #304550;
   padding:10px 0 20px 0;
 }
 
@@ -294,9 +295,9 @@ h1 {
 
 
 .opacity-low {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .opacity-medium {
-  opacity: 0.8;
+  opacity: 1;
 }
