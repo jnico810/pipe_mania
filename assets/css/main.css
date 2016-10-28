@@ -36,6 +36,42 @@ body, h1, div, p {
   bottom: 0;
   margin: auto;
   z-index: 3;
+  visibility: hidden;
+}
+
+.menu-enter{
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-300%);
+  }
+  50%{
+    -webkit-transform: translateY(8%);
+  }
+  100%{
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideDown {
+
+  50%{
+    -webkit-transform: translateY(8%);
+  }
+  100%{
+    -webkit-transform: translateY(0%);
+  }
 }
 
 #fast {
@@ -258,9 +294,9 @@ h1 {
 
 
 .opacity-low {
-  opacity: 0.2;
+  opacity: 0.8;
 }
 
 .opacity-medium {
-  opacity: 0.2;
+  opacity: 0.8;
 }
