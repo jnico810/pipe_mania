@@ -228,8 +228,11 @@ h1 {
   font-size:50px;
   background-color: transparent;
   font-family: 'copper';
-  text-align: center;
+  -webkit-text-stroke-color: yellow;
+    /*-webkit-text-fill-color: green;*/
+  /*text-align: center;*/
   color: #304550;
+
   padding:10px 0 20px 0;
 }
 
