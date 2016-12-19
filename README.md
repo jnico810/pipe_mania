@@ -41,3 +41,35 @@ const level1 = {
   difficulty: 0.10
 };
 ```
+
+As the game plays, the sludge moves from pipe to pipe, only if the pipes are connected. This happens only if the next pipe is a valid option. Using a 2D array, keeping track of the locations of pipes, the pipes are filled accordingly.
+
+```javascript
+fillNextPipe(){
+  const y = this.currentSludgeSpace.y;
+  const x = this.currentSludgeSpace.x;
+
+  switch (this.currentSludgeSpace.exit){
+    case 'right':
+      if (this.grid[x][y + 1] === this.end){
+        this.end.animate('right');
+        this.score += this.multiplier;
+        this.scoreElement.innerHTML = `Score: ${this.score}`;
+      } else if (this.grid[x][y + 1] && this.grid[x][y + 1].possible && this.grid[x][y + 1].possible.includes('left')){
+         this.currentSludgeSpace = this.spaces[x][y+1];
+         this.currentSludgeSpace.locked = true;
+         this.score += this.multiplier;
+         this.scoreElement.innerHTML = `Score: ${this.score}`;
+         this.currentSludgeSpace.animate(this.currentSludgeSpace.exits.left);
+         this.currentSludgeSpace.exit = this.currentSludgeSpace.exits.left;
+
+       } else{
+         this.sludge.style.left = this.currentSludgeSpace.canvas.getBoundingClientRect().right - 60;
+         this.sludge.style.top = this.currentSludgeSpace.canvas.getBoundingClientRect().top - 30;
+         this.spillSludge();
+       }
+       return;
+     }
+   }
+ }
+```
